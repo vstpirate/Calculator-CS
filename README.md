@@ -10,4 +10,4 @@ Impartirea la zero este semnalata ca eroare
 4. Pentru iesire lasati primul numar gol si apasati Enter
 
 ## Facut de
-Renat Bicioc C-P-253-11
+Renat Bicioc, C-P-253-11
