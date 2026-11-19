@@ -26,7 +26,10 @@ namespace CalculatorCS
                     case "+": r = a + b; break;
                     case "-": r = a - b; break;
                     case "*": r = a * b; break;
-                    case "/": r = a / b; break;
+                    case "/":
+                        if (b == 0) { Console.WriteLine("Eroare: impartirea la zero este imposibila!\n"); continue; }
+                        r = a / b;
+                        break;
                     default: Console.WriteLine("Operatie necunoscuta!\n"); continue;
                 }
                 Console.WriteLine($"Rezultat: {a} {op} {b} = {r}\n");
