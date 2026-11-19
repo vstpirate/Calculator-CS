@@ -25,6 +25,8 @@ namespace CalculatorCS
                 {
                     case "+": r = a + b; break;
                     case "-": r = a - b; break;
+                    case "*": r = a * b; break;
+                    case "/": r = a / b; break;
                     default: Console.WriteLine("Operatie necunoscuta!\n"); continue;
                 }
                 Console.WriteLine($"Rezultat: {a} {op} {b} = {r}\n");
